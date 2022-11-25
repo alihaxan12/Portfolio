@@ -50,6 +50,7 @@ export const Projects = () => {
                         <p className='pb-4 text-xl pt-2 text-white text-center'>React Js</p>
                         <a href="/" > <p className='text-center py-3 px-6 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'> More Info</p> </a>
                     </div>
+                    
                 </div>
             </div>
         </div>
