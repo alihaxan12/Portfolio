@@ -20,12 +20,12 @@ export const Contact = () => {
                             <Image className="rounded-xl hover:scale-105 ease-in duration-300" 
                             src='/images/laptop.jpg'
                             width={500} 
-                            height={350} />
+                            height={350}  alt='/' />
                         </div>
                         <div>
                             <h1 className='uppercase text-3xl py-2 text-gray-600 font-bold'>Hassan ali</h1>
                             <p className='text-xl tracking-widest'>Front-End Developer</p>
-                            <p className='py-4 tracking-wider tracking-#'>I am available for freelancer or full time position. Contact me and let's talk</p>
+                            <p className='py-4 tracking-wider tracking-#'>I am available for freelancer or full time position. Contact me and let&apos;s talk</p>
                         </div>
                         <div>
                         <p className=' uppercase pt-8 text-2xl tracking-widest'>Connect me</p>

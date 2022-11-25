@@ -56,25 +56,25 @@ const Navbar = () => {
                     : 'fixed left-[-100%] p-10 ease-in duration-500'}>
                         <div>
                             <div className='flex items-center justify-between w-full'>
-                                <h1 className="text-[#1f2937] text-3xl font-bold">Next.App</h1>
+                                <h1 className="text-[#1f2937] text-3xl font-bold">Next App</h1>
                                 <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                     <AiOutlineClose/>
                                 </div>
                             </div>
                             <div className='border-b border-gray-200 my-4'>
-                                <p>lets's build somthing legendary together </p>
+                                <p>lets&apos;s build somthing legendary together </p>
                             </div>
                         </div>
                         <div className='flex py-4 flex-col'>
                             <ul className='uppercase'>
-                                <a  onClick={()=>setNav(false)} href="/" className="p-4 text-sm"><li>Home</li> </a>
-                                <a onClick={()=>setNav(false)} href="/#about"className="p-4 text-sm"><li>About</li> </a>
-                                <a onClick={()=>setNav(false)} href="/#skills"className="p-4 text-sm"><li>skills</li> </a>
-                                <a onClick={()=>setNav(false)} href="/#projects"className="p-4 text-sm"><li>Projects</li> </a>
-                                <a onClick={()=>setNav(false)} href="/#contact"className="p-4 text-sm"><li>Contact</li> </a>
+                                <Link  onClick={()=>setNav(false)} href="/" className="p-4 text-sm"><li>Home</li> </Link>
+                                <Link onClick={()=>setNav(false)} href="/#about"className="p-4 text-sm"><li>About</li> </Link>
+                                <Link onClick={()=>setNav(false)} href="/#skills"className="p-4 text-sm"><li>skills</li> </Link>
+                                <Link onClick={()=>setNav(false)} href="/#projects"className="p-4 text-sm"><li>Projects</li> </Link>
+                                <Link onClick={()=>setNav(false)} href="/#contact"className="p-4 text-sm"><li>Contact</li> </Link>
                             </ul>
                             <div className='pt-40 '>
-                                <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
+                                <p className='uppercase tracking-widest text-[#5651e5]'>Let&apos;s Connect</p>
                                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                         <FaFacebook/>
@@ -85,10 +85,10 @@ const Navbar = () => {
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                         <FaWhatsapp/>
                                     </div>
-                                    <a href='/'><div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <Link href='/'><div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                         <BsFillPersonLinesFill/>
                                     </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
