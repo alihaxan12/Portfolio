@@ -6,7 +6,7 @@ import { HiChevronDoubleLeft, HiChevronDoubleUp, HiOutlineChevronDoubleUp } from
 import Link from 'next/link';
 
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <div id='contact' className='w-full h-screen'>
         <div className='max-w-[1240px] m-auto py-16 px-2 w-full '>
@@ -90,3 +90,4 @@ export const Contact = () => {
     </div>
   )
 }
+export default Contact;

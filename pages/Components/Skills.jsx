@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 
 
-export const Skills = () => {
+ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
         <div className='max-w-[1240px] h-full  justify-center mx-auto'>
@@ -138,3 +138,4 @@ export const Skills = () => {
     </div>
   )
 }
+export default Skills;

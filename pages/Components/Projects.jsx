@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 
 
-export const Projects = () => {
+const Projects = () => {
   return (
     <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
@@ -57,3 +57,4 @@ export const Projects = () => {
     </div>
   )
 }
+export default Projects;

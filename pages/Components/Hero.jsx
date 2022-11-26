@@ -4,7 +4,7 @@ import {BsFillPersonLinesFill, BsFillPersonPlusFill} from 'react-icons/bs';
 
 import React from 'react'
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <div id='hero' className='w-full h-screen text-center'>
         <div className='max-w-[1240px]  w-full h-full mx-auto p-2 flex justify-center items-center'>
@@ -37,3 +37,4 @@ export const Hero = () => {
     </div>
   )
 }
+export default Hero;
