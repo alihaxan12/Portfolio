@@ -56,7 +56,7 @@ const Navbar = () => {
                     : 'fixed left-[-100%] p-10 ease-in duration-500'}>
                         <div>
                             <div className='flex items-center justify-between w-full'>
-                                <h1 className="text-[#1f2937] text-3xl font-bold">Next App</h1>
+                                <h1 className="text-[#1f2937] text-3xl font-bold">Portfolio</h1>
                                 <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                     <AiOutlineClose/>
                                 </div>
