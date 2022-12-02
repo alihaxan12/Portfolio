@@ -48,8 +48,8 @@ import Image from 'next/image'
                             <Image
                                 src="/images/JS.png"
                                 alt='/'
-                                width={200}
-                                height={200}
+                                width={150}
+                                height={150}
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
