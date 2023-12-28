@@ -3,6 +3,7 @@ import {FaFacebook, FaFacebookF, FaGithub, FaLinkedin, FaLinkedinIn, FaWhatsapp}
 import {BsFillPersonLinesFill, BsFillPersonPlusFill} from 'react-icons/bs';
 
 import React from 'react'
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -19,9 +20,11 @@ const Hero = () => {
                     learning back-end technologies.
                 </p>
                 <div className='flex justify-between m-auto items-center py-4 max-w-[330px]'>
+                    <Link href={"https://twitter.com/megnetrecr6096"}>
                     <div  className=' rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150 ease-in duration-75'>
                         <FaFacebookF size={20} />
                     </div>
+                    </Link>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150  ease-in duration-75'>
                         <FaLinkedin size={20}/>
                     </div>
